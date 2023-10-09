@@ -62,6 +62,7 @@ html {
 
 .theme-dark,
 .theme-light {
+  --brand-260: #d79921;
   --header-primary: #f9f5d7;
   --header-secondary: #fbf1c7;
   --text-normal: #f2e5bc;
@@ -80,17 +81,10 @@ html {
   --background-floating: #282828;
   --background-nested-floating: #504945;
   --background-mobile-primary: #282828;
-  --background-mobile-secondary: #4FFF00;
-  --chat-background: #4FFF00;
-  --chat-border: #4FFF00;
-  --chat-input-container-background: #4FFF00;
   --background-modifier-hover: rgba(168, 153, 132, 0.15);
   --background-modifier-selected: rgba(189, 174, 147, 0.2);
   --background-modifier-accent: rgba(146, 131, 116, 0.26);
   --background-modifier-active: rgba(249, 245, 215, 0.17);
-  --info-positive-background: #4FFF00;
-  --info-positive-foreground: #4FFF00;
-  --info-positive-text: #4FFF00;
   --info-warning-background: rgba(215, 153, 33, 0.15);
   --info-warning-foreground: #d79921;
   --info-warning-text: #d79921;
@@ -108,19 +102,10 @@ html {
   --status-danger-text: #282828;
   --status-danger: #fb4934;
   --status-positive: #b8bb26;
-  --status-warning: #4FFF00;
-  --status-yellow-400: #4FFF00;
-  --status-green-600: #4FFF00;
-  --primary-dark-600: #4FFF00;
-  --status-yellow-560: #4FFF00;
-  --status-red-500: #4FFF00;
-  --status-red-530: #4FFF00;
-  --status-yellow-500: #4FFF00;
+  --status-warning: #9D6A1C;
   --black-500: #282828;
   --green-360: #b8bb26;
   --primary-400: #a89984;
-  --primary-dark-700: #4FFF00;
-  --status-green-560: #4FFF00;
   --white-500: #f9f5d7;
   --guild-boosting-pink: #d3869b;
   --premium-perk-yellow: #fabd2f;
@@ -131,7 +116,6 @@ html {
   --premium-perk-green: #b8bb26;
   --premium-perk-pink: #d3869b;
   --premium-perk-orange: #fe8019;
-  --status-green-400: #4FFF00;
   --button-danger-background: #d79921;
   --button-danger-background-hover: #fabd2f;
   --button-danger-background-active: #f9f5d7;
@@ -181,7 +165,6 @@ html {
   --button-outline-primary-text-active: #282828;
   --button-outline-primary-border-active: #fabd2f;
   --modal-background: #282828;
-  --modal-footer-background: #4FFF00;
   --scrollbar-thin-thumb: #504945;
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #504945;
@@ -190,18 +173,13 @@ html {
   --scrollbar-auto-scrollbar-color-track: #504945;
   --input-background: #32302f;
   --input-placeholder-text: #bdae93;
-  --logo-primary: #4FFF00;
   --control-brand-foreground: #d79921;
-  --control-brand-foreground-new: #4FFF00;
   --mention-foreground: #ebdbb2;
   --mention-background: rgba(168, 153, 132, 0.3);
   --background-mentioned: rgba(215, 153, 33, 0.1); 
   --background-mentioned-hover: rgba(215, 153, 33, 0.2);
   --background-message-hover: rgba(80, 73, 69, 0.25);
-  --background-message-automod: #4FFF00;
-  --background-message-automod-hover: #4FFF00;
   --background-message-highlight: rgba(80, 73, 69, 0.4);
-  --background-message-highlight-hover: #4FFF00;
   --channels-default: #f2e5bc;
   --channel-icon: #ebdbb2;
   --channel-text-area-placeholder: #f9f5d7;
@@ -209,22 +187,11 @@ html {
   /* message input bar */
   --channeltextarea-background: #32302f; 
 
-  --activity-card-background: #4FFF00;
   --textbox-markdown-syntax: #928374;
-  --spoiler-revealed-background: #4FFF00;
-  --spoiler-hidden-background: #4FFF00;
-  --android-navigation-bar-background: #4FFF00;
-  --android-ripple: #4FFF00;
   --deprecated-card-bg: #32302f;
   --deprecated-card-editable-bg: #32302f;
-  --deprecated-store-bg: #4FFF00;
-  --deprecated-quickswitcher-input-background: #4FFF00;
-  --deprecated-quickswitcher-input-placeholder: #4FFF00;
   --deprecated-text-input-bg: #282828;
   --deprecated-text-input-border: #665c54;
-  --deprecated-text-input-border-hover: #4FFF00;
-  --deprecated-text-input-border-disabled: #4FFF00;
-  --deprecated-text-input-prefix: #4FFF00;
   --focus-primary: #8ec07c;
   --interactive-normal: #a89984;
   --interactive-muted: rgba(168, 153, 132, 0.3);
@@ -241,10 +208,6 @@ html {
 .theme-dark [class*=disabledPointerEvents] svg[class|=activityIcon],
 .theme-light [class*=disabledPointerEvents] svg[class|=activityIcon] {
   color: #d79921;
-}
-.theme-dark [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-],
-.theme-light [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-] {
-  color: #4FFF00;
 }
 
 ::selection {
@@ -412,7 +375,7 @@ div[class|=actionButtons] [class|=button] [class*=buttonColor-] {
 }
 div[class|=actionButtons] [class|=button][class*=buttonColor-][class*=buttonActive-],
 div[class|=actionButtons] [class|=button] [class*=buttonColor-][class*=buttonActive-] {
-  background-color: #b8bb26;
+  background-color: #BB8725;
   color: #232634;
 }
 div[class|=actionButtons] [class|=button][class*=buttonColor-][class*=buttonActive-] [class*=buttonContents-],
@@ -956,7 +919,7 @@ div[class|=upperBadge] > div[class|=iconBadge] path {
   color: #232634;
 }
 div[class|=upperBadge] div[class*=participating-] {
-  background: #b8bb26;
+  background: #ffffff;
 }
 
 div[class|=lowerBadge] div[class|=iconBadge] path {
@@ -1216,7 +1179,7 @@ div[class|=chat] > div[class|=content] > div[class|=container] div[class|=newBad
   color: #232634;
 }
 div[class|=chat] > div[class|=content] > div[class|=container] div[class*=mainCard-] {
-  background-color: #504945;
+  background-color: #3c3836;
 }
 
 div[class|=sidebar] > section[class|=panels] svg[class*=buttonIcon-],
@@ -2390,10 +2353,32 @@ div[class|=contentRegion] #guild_premium-tab div[class|=tierHeaderUnlocked] div[
     background-color: #C48018;
 }
 
-element.style {
+.text-sm-normal-AEQz4v {
+	color: #f2e5bc;
+}
+
+div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=white-] {
+    color: #282828;
+    background-color: #d5c4a1;
+}
+
+div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=white-]:hover, div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=white-][class*=active-] {
+    color: #282828;
+    background: #f9f5d7;
+}
+
+div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=primaryDark-] {
+    background: #504945;
+}
+
+div[class|=callContainer] div[class|=videoControls] button[class*=leftTrayIcon-][class*=buttonColor-] {
+    background-color: #504945;
     color: #f9f5d7;
 }
 
-.text-sm-normal-AEQz4v {
-	color: #f2e5bc;
+[class|=chatContent] div[class*=wrapperAudio-] div[class*=audioControls], [class|=chatContent] div[class*=wrapperAudio-] div[class*=videoControls-], [class|=chatContent] div[class*=imageWrapper-] div[class*=audioControls], [class|=chatContent] div[class*=imageWrapper-] div[class*=videoControls-] {
+    background-color: rgba(80, 73, 69, 0.8);
+}
+
+div[class|=newBadge-24ERrk] div[class|=textBadge-1fdDPJ] div[class|=base-3IDx3L]  div[class|=eyebrow-132Xza] div[class|=baseShapeRound-3epLEv] {
 }
