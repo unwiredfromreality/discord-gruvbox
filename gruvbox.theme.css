@@ -1183,8 +1183,24 @@ div[class|=sidebar] > section[class|=panels] div[class*=buttonContents] {
   background-color: #292c3c;
 }
 [data-list-id|=forum-channel-list] button[class|=submitButton][class*=colorBrand] {
-  background-color: #83a598;
-  color: #232634;
+  background-color: #D79921;
+  color: #232634 !important;
+}
+
+.text-md-bold-1mgErV, .text-md-semibold-2VMhBr {
+	color: #fbf1c7;
+}
+
+.submitIcon-E3Vuaz {
+	color: #282828;
+}
+
+.theme-dark svg[class*=searchIcon-], .theme-light svg[class*=searchIcon-] {
+    color: #A69884 !important;
+}
+
+.name-3Uvkvr {
+	color: #f9f5d7;
 }
 
 div[class|=applicationCommand] span[class*=selectedPill-] {
