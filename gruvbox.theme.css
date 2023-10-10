@@ -1822,10 +1822,10 @@ div[class*=userProfileOuter-] div[class|=userPopoutOverlayBackground] > div[clas
 }
 
 [class*=layerContainer-] [id|=slate-toolbar] {
-  background-color: var(--background-floating);
+  background-color: #32302f;;
 }
 [class*=layerContainer-] [id|=slate-toolbar] [class*=buttons-] [class*=icon-] {
-  color: #c6d0f5;
+  color: #fbf1c7;
 }
 
 [class*=layerContainer-] div[id=sort-and-view] div[id=sort-and-view-reset-all] [style="color: var(--text-normal);"]:hover {
@@ -2487,3 +2487,20 @@ div[class|=notice] button[class|=button]:hover {
     color: #fbf1c7;
     background-color: rgba(50, 48, 47, 0.7);
 }
+
+div[class*=userInfoSection-] div[class|=connectedAccountContainer] {
+    background-color: #3c3836 !important;
+}
+
+.editIcon-3h_5Rm {
+    color: #fbf1c7;
+}
+
+.iconBadge-3Mmg92 {
+    background-color: #cc241d;
+}
+
+.theme-dark svg[class*=threadIcon-], .theme-light svg[class*=threadIcon-] {
+    color: #A89984 !important;
+}
+
