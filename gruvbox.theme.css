@@ -8,19 +8,18 @@
 **/
 
 button[class*=emojiButtonNormal] > div > div {
-  filter: grayscale(0.77) hue-rotate(185deg) brightness(1.015) opacity(100%) !important;
+    filter: grayscale(0.8) hue-rotate(-50deg) brightness(0.8) opacity(100%) !important;
+}
+
+.container-1QtPKm, .input-125oad {
+    border-radius: 14px;
+    cursor: pointer;
+	background-color: #665c54 !important;
 }
 
 [data-popout-root],
 html {
   --brand-experiment: #d79921;
-  --brand-experiment-100: white;
-  --brand-experiment-130: white;
-  --brand-experiment-160: white;
-  --brand-experiment-200: white;
-  --brand-experiment-230: white;
-  --brand-experiment-260: white;
-  --brand-experiment-300: white;
   --brand-experiment-330: #f9f5d7;
   --brand-experiment-360: #f9f5d7;
   --brand-experiment-400: #665c54;
@@ -345,7 +344,7 @@ html {
   background-color: #232634;
 }
 [class*=lookFilled-][class*=colorBrand-] [class*=defaultColor-], [class*=lookFilled-][class*=colorBrandNew-] [class*=defaultColor-], [class*=lookFilled-][class*=colorLink-] [class*=defaultColor-], [class*=lookFilled-][class*=colorYellow-] [class*=defaultColor-], [class*=lookFilled-][class*=colorRed-] [class*=defaultColor-], [class*=lookFilled-][class*=colorGreen-] [class*=defaultColor-] {
-  color: #232634;
+  color: #fbf1c7;
 }
 [class*=lookFilled-][class*=colorPrimary-] {
   color: #fbf1c7;
@@ -891,10 +890,19 @@ nav[class*=guilds-] span[class|=expandedFolderBackground] {
 nav[class*=guilds-] div[class|=folder][class*=hover-] {
   background-color: #665c54;
 }
+.closedFolderIconWrapper-3tRb2d {
+	background-color: #504945;
+}
+.closedFolderIconWrapper-3tRb2d:hover {
+	background-color: #665c54;
+}
 nav[class*=guilds-] div[data-list-item-id=guildsnav___create-join-button] svg > path,
 nav[class*=guilds-] div[data-list-item-id=guildsnav___guild-discover-button] svg > path,
 nav[class*=guilds-] div[data-list-item-id=guildsnav___app-download-button] svg > path {
   fill: #b8bb26;
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+	background-color: #665c54;
 }
 
 div[class|=upperBadge] > div[class|=iconBadge] path {
@@ -972,6 +980,7 @@ div[class*=newPostCount-] {
 }
 
 div[class*=liveSmall-] {
+  display: none;
   background-color: #d79921!important;
   color: #282828;
 }
@@ -1088,13 +1097,13 @@ main[class|=chatContent] div[id|=message-content] svg[class|=icon] > path[d="M2 
 }
 .theme-dark div[class|=spoilerContainer] div[class|=spoilerWarning],
 .theme-light div[class|=spoilerContainer] div[class|=spoilerWarning] {
-  color: #c6d0f5;
-  background-color: rgba(35, 38, 52, 0.7);
+  color: #fbf1c7;
+  background-color: rgba(50, 48, 47, 0.7);
 }
 .theme-dark div[class|=spoilerContainer]:hover div[class|=spoilerWarning],
 .theme-light div[class|=spoilerContainer]:hover div[class|=spoilerWarning] {
-  color: #c6d0f5;
-  background-color: #232634;
+  color: #fbf1c7;
+  background-color: rgba(50, 48, 47, 0.7);
 }
 .theme-dark div[class|=spoilerContainer] article[class*=embedFull-],
 .theme-light div[class|=spoilerContainer] article[class*=embedFull-] {
@@ -1223,7 +1232,7 @@ div[class|=callContainer] button[class*=participantsButton-] {
   color: #fbf1c7;
 }
 div[class|=callContainer] div[class|=indicators] div[class|=liveQualityIndicator] {
-  background-color: #cc241d !important;
+  background-color: transparent !important;
 }
 div[class|=callContainer] div[class|=indicators] div[class|=liveQualityIndicator] svg[class|=premiumStreamIcon] {
   color: #232634;
@@ -1232,7 +1241,7 @@ div[class|=callContainer] div[class|=videoControls] div[class|=children] div[cla
   color: #b5bfe2;
 }
 div[class|=callContainer] div[class|=videoControls] div[class|=toolbar] svg[class|=controlIcon] {
-  color: var(--interactive-normal);
+  fill: #A89984 !important;
 }
 div[class|=callContainer] div[class|=videoControls] div[class|=toolbar] div[class|=streamQualityIndicator] div[class|=liveQualityIndicator] {
   background-color: #51576d !important;
@@ -1261,7 +1270,7 @@ div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=r
   color: #232634;
 }
 div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=primaryDark-] {
-  background: #51576d;
+  background: #ffffff;
   color: #c6d0f5;
 }
 div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=primaryDark-] [class*=centerIcon-] {
@@ -1335,7 +1344,7 @@ div[class*=chat-] li[class*=mainCard-][class*=container] {
   background-color: #3c3836;
 }
 div[class*=chat-] li[class*=mainCard-][class*=container]:hover {
-  background-color: #504945;
+  background-color: #4C4643;
 }
 div[class*=chat-] li[class*=mainCard-][class*=container] div[class*=contentPreview-] {
   background-color: #928374;
@@ -1401,7 +1410,7 @@ div[class|=layerContainer] [role=menu] [class*=colorDefault][role=menuitem]:not(
   color: #232634;
 }
 div[class|=layerContainer] [role=menu] [class*=colorDefault] [class*=caret] {
-  color: #c6d0f5;
+  color: #bdae93;
 }
 div[class|=layerContainer] [role=menu] [class*=colorDefault]:active:not([class*=hideInteraction-]) {
   color: var(--background-floating);
@@ -1511,7 +1520,7 @@ section[class|=positionContainer] button[class*=navButtonActive] {
 
 #emoji-picker-tab-panel [class*=stickerInspected-] [class*=inspectedIndicator],
 #emoji-picker-tab-panel [class|=emojiItem][class*=emojiItemSelected-] {
-  background-color: var(--brand-experiment-25a);
+  background-color: #665c54 !important;
 }
 #emoji-picker-tab-panel [class*=newlyAddedHighlight-] {
   border: 1px solid #b8bb26;
@@ -2208,8 +2217,8 @@ div[class|=notice] div[class|=closeButton] > svg > path {
     background: #3c3836;
 }
 
-.button-ejjZWC {
-    color: #fbf1c7;
+.contents-3NembX .button-ejjZWC {
+    color: #000000;
 }
 
 .gradientBackground-MytxDL {
@@ -2227,11 +2236,6 @@ div[class|=notice] div[class|=closeButton] > svg > path {
 
 .icon-2O29O0 {
     background-color: transparent;
-}
-
-.standardSidebarView-E9Pc3j, .standardSidebarView-E9Pc3j * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 div[class|=newChannel] {
@@ -2332,17 +2336,21 @@ div[class|=contentRegion] #guild_premium-tab div[class|=tierHeaderUnlocked] div[
 }
 
 div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=white-] {
-    color: #282828;
-    background-color: #d5c4a1;
+    color: #f2e5bc;
+    background-color: #998B79;
 }
 
 div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=white-]:hover, div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=white-][class*=active-] {
-    color: #282828;
-    background: #f9f5d7;
+    color: #f2e5bc;
+    background-color: #998B79;
 }
 
 div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=primaryDark-] {
     background: #504945;
+}
+div[class|=callContainer] div[class|=videoControls] [class*=colorable-][class*=primaryDark-] {
+    background: #504945;
+	color: #d5c4a1;
 }
 
 div[class|=callContainer] div[class|=videoControls] button[class*=leftTrayIcon-][class*=buttonColor-] {
@@ -2392,7 +2400,6 @@ div[class|=callContainer] [class*=controlIcon-]:hover {
     color: #A89984;
 }
 
-
 div[class|=callContainer] div[class|=videoControls] div[class|=toolbar] div[class|=streamQualityIndicator] div[class|=liveQualityIndicator] div[class|=qualityIndicator] {
     background-color: #3C3836;
 	color: #fbf1c7;
@@ -2423,10 +2430,6 @@ div[class|=layerContainer] [role=menu] [class*=colorDefault][class*=colorBrand] 
 	background-color: #000 !important;
 }
 
-button[class*=emojiButtonNormal] > div > div {
-    filter: grayscale(0.8) hue-rotate(-50deg) brightness(0.8) opacity(100%) !important;
-}
-
 .unreadIcon-3dqgX9, .voiceChannelsIcon-2smmeE {
 	display: none;
 }
@@ -2439,12 +2442,32 @@ div[class|=notice] button[class|=button] {
     border-color: #3c3836;
 }
 
-.iconButton-3zJT3l .lookFilled-1H2Jvj .contents-3NembX, .lookInverted-2GrLaB .contents-3NembX, .lookLink-13iF2K .contents-3NembX, .lookOutlined-3RTC7c .contents-3NembX {
-	color: #282828;
-}
-
 div[class|=notice] button[class|=button]:hover {
     background: #fabd2f;
     color: #282828;
 }
 
+.text-md-medium-2n7Vn5, .text-md-normal-2rFCH3 {
+	color: #fbf1c7 !important;
+}
+
+.controlIcon-10O-4h {
+	color: #fbf1c7 !important;
+}
+
+.theme-dark .categoryFadeBlurple-1l49_Q, .theme-light .categoryFadeBlurple-1l49_Q  {
+    background-color: rgba(102, 92, 84, 0.8);
+}
+
+.theme-dark .categoryFadeBlurple-1l49_Q:hover, .theme-light .categoryFadeBlurple-1l49_Q:hover {
+    background-color: rgba(102, 92, 84, 0.8);
+}
+
+.pngImage-1vIgLy:hover, .lottieCanvas-c2HE82 {
+    background-color: #665c54;
+}
+
+.theme-dark div[class|=spoilerContainer] div[class|=spoilerWarning], .theme-light div[class|=spoilerContainer] div[class|=spoilerWarning] {
+    color: #fbf1c7;
+    background-color: rgba(50, 48, 47, 0.7);
+}
