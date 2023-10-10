@@ -2504,3 +2504,14 @@ div[class*=userInfoSection-] div[class|=connectedAccountContainer] {
     color: #A89984 !important;
 }
 
+div[class|=notice] button[class|=button] {
+    color: #282828;
+}
+
+div[class|=notice] button[class|=button]:hover {
+    border-color: #282828;
+}
+
+.closeIcon-3eoP1e {
+    filter: brightness(0) !important;
+}
