@@ -2206,8 +2206,7 @@ span[class*=channelMention]:hover,
 }
 
 .pngImage-1vIgLy:hover, .lottieCanvas-c2HE82 {
-    background-color: rgba(102, 92, 84, 0.4);
-	border-radius: 10px;
+    background-color: transparent !important;
 }
 
 .colorStreamerMode-8uoRWd {
