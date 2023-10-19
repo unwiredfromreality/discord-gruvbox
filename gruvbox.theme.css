@@ -980,7 +980,6 @@ div[class*=newPostCount-] {
 }
 
 div[class*=liveSmall-] {
-  display: none;
   background-color: #d79921!important;
   color: #282828;
 }
@@ -2513,4 +2512,16 @@ div[class|=notice] button[class|=button]:hover {
 
 .closeIcon-3eoP1e {
     filter: brightness(0) !important;
+}
+
+.assetWrapperMasked-1iw9lV {
+	background-color: #504945;
+}
+
+.lookFilled-1H2Jvj.colorGreen-jIPCAS, .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover{
+    background-color: #B57614;
+}
+
+a[class*=socialLink-][href*=discord] {
+    color: #A89984;
 }
