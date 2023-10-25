@@ -27,7 +27,7 @@ html {
   --brand-experiment-460: #fbf1c7;
   --brand-experiment-500: #504945;
   --brand-experiment-530: #ebdbb2;
-  --brand-experiment-560: #d5c4a1;
+  --brand-experiment-560: #665c54;
   --brand-experiment-600: #bdae93;
   --brand-experiment-630: #a89984;
   --brand-experiment-660: #83a598;
@@ -44,6 +44,8 @@ html {
 .theme-light {
   --brand-260: #d79921;
   --brand-500: #d79921;
+  --brand-560: #3c3836;
+  --primary-300: #f9f5d7;
   --header-primary: #f9f5d7;
   --header-secondary: #fbf1c7;
   --text-normal: #f2e5bc;
@@ -2525,3 +2527,29 @@ div[class|=notice] button[class|=button]:hover {
 a[class*=socialLink-][href*=discord] {
     color: #A89984;
 }
+
+.reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
+    color: #fbf1c7;
+}
+
+.updateReactionButton-13dIN9>div {
+	background: #A89984;
+}
+
+
+svg[class|=spine] {
+    color: #504945;
+}
+
+div[class|=spineBorder] {
+    background: #504945;
+}
+
+ul[aria-label$=" threads"] > li:nth-child(2n) {
+    --channels-default: #bdae93;
+}
+
+.clickable_d23a1a .icon__4cb88, .clickable_d23a1a .icon__4cb88:hover {
+    color: #fbf1c7;
+}
+
