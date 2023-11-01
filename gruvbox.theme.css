@@ -44,7 +44,7 @@ html {
 .theme-light {
   --brand-260: #d79921;
   --brand-500: #d79921;
-  --brand-560: #3c3836;
+  --brand-560: #282828;
   --primary-300: #f9f5d7;
   --header-primary: #f9f5d7;
   --header-secondary: #fbf1c7;
@@ -56,7 +56,7 @@ html {
   --text-warning: #cc241d;
   --text-danger: #d79921;
   --text-brand: #d79921;
-  --background-primary: #3c3836;
+  --background-primary: #282828;
   --background-secondary: #32302f;
   --background-secondary-alt: #32302f;
   --background-tertiary: #32302f;
@@ -186,7 +186,7 @@ html {
 .theme-dark [class*=disabledPointerEvents],
 .theme-light [class*=disabledPointerEvents] {
   --background-floating: #282828;
-  --background-tertiary: #3c3836;
+  --background-tertiary: #282828;
 }
 .theme-dark [class*=disabledPointerEvents] svg[class|=activityIcon],
 .theme-light [class*=disabledPointerEvents] svg[class|=activityIcon] {
@@ -559,7 +559,7 @@ div[class|=contentRegion] #billing-tab div[class|=premiumIndicator] {
 div[class|=contentRegion] #billing-tab div[class|=paymentPane],
 div[class|=contentRegion] #billing-tab div[class*=paginator-],
 div[class|=contentRegion] #billing-tab div[class*=payment-] {
-  background-color: #3c3836;
+  background-color: #282828;
   color: #f9f5d7;
 }
 div[class|=contentRegion] #billing-tab div[class|=expandedInfo] {
@@ -795,7 +795,7 @@ div[class|=sidebar] div[class|=container] div[class|=divider] {
 }
 
 div[class|=pageWrapper] {
-  background: #3c3836 !important;
+  background: #282828 !important;
 }
 div[class|=pageWrapper] div[class*=searchBox-] {
   background-color: #292c3c;
@@ -808,7 +808,7 @@ div[class|=pageWrapper] div[class*=categoryPill-][class*=selected-] div {
 }
 
 div[class|=homeContainer] {
-  background: #3c3836 !important;
+  background: #282828 !important;
 }
 div[class|=homeContainer] > div[class|=homeContent] div[class*=card-] {
   background: #414559 !important;
@@ -887,7 +887,7 @@ nav[class*=guilds-] div[data-list-item-id=guildsnav___home] {
   --background-primary: #504945;
 }
 nav[class*=guilds-] span[class|=expandedFolderBackground] {
-  background-color: #3c3836;
+  background-color: #282828;
 }
 nav[class*=guilds-] div[class|=folder][class*=hover-] {
   background-color: #665c54;
@@ -1149,7 +1149,7 @@ div[class|=channelTextArea] button[class*=emojiButton-] {
 }
 
 div[class|=chat] > div[class|=content] > div[class|=container] {
-  background-color: #3c3836;
+  background-color: #282828;
 }
 div[class|=chat] > div[class|=content] > div[class|=container] div[class|=pinIcon] > svg > path,
 div[class|=chat] > div[class|=content] > div[class|=container] div[class|=stepStatus] > svg > path {
@@ -1171,7 +1171,7 @@ div[class|=chat] > div[class|=content] > div[class|=container] div[class|=newBad
   color: #232634;
 }
 div[class|=chat] > div[class|=content] > div[class|=container] div[class*=mainCard-] {
-  background-color: #3c3836;
+  background-color: #282828;
 }
 
 div[class|=sidebar] > section[class|=panels] svg[class*=buttonIcon-],
@@ -1358,7 +1358,7 @@ div[class*=chat-] nav[class*=pageControl] div[class*=roundButton][class*=activeB
 }
 
 div[class*=chat-] li[class*=mainCard-][class*=container] {
-  background-color: #3c3836;
+  background-color: #282828;
 }
 div[class*=chat-] li[class*=mainCard-][class*=container]:hover {
   background-color: #4C4643;
@@ -1371,7 +1371,7 @@ div[class*=chat-] li[class*=mainCard-][class*=container] div[class*=contentPrevi
   background: none;
 }
 div[class*=chat-] li[class*=mainCard-][class*=container] div[class*=tags-] div[class*=tagPill-] {
-  background-color: #3c3836;
+  background-color: #282828;
 }
 div[class*=chat-] div[class*=emptyPage] {
   background-color: #303446;
@@ -1612,7 +1612,7 @@ div[class|=layerContainer] #guild-header-popout,
 div[class|=layerContainer] #guild-context,
 div[class|=layerContainer] div[id|=channel-context],
 div[class|=layerContainer] div[id|=user-context] {
-  background: #3c3836;
+  background: #282828;
 }
 div[class|=layerContainer] > div[class*=layer] div[role=listbox] {
   background-color: #32302F;
@@ -2065,7 +2065,7 @@ span[class*=channelMention]:hover,
 
 .theme-dark code.hljs {
   color: #fbf1c7;
-  background: #3c3836;
+  background: #282828;
 }
 .theme-dark code .hljs-keyword {
   color: #ca9ee6;
@@ -2230,7 +2230,7 @@ div[class|=notice] div[class|=closeButton] > svg > path {
 }
 
 [class|=chatContent] code.inline {
-    background: #3c3836;
+    background: #282828;
 }
 
 .contents-3NembX .button-ejjZWC {
@@ -2265,7 +2265,7 @@ div[class|=newChannel] {
 
 .theme-dark .customColorPicker-C_jddW {
     background: #32302f;
-    border-color: #3c3836;
+    border-color: #282828;
 }
 
 .grabber-3R-Rx9 {
@@ -2384,7 +2384,7 @@ div[class|=chat] > div[class|=content] > div[class|=container] div[class|=newBad
 }
 
 div[class|=callContainer] div[class|=videoControls] div[class|=toolbar] div[class|=streamQualityIndicator] div[class|=liveQualityIndicator] {
-    background-color: #3c3836 !important;
+    background-color: #282828 !important;
 }
 
 .qualityResolution-RP9GCP {
@@ -2455,7 +2455,7 @@ div[class|=layerContainer] [role=menu] [class*=colorDefault][class*=colorBrand] 
 }
 
 div[class|=notice] button[class|=button] {
-    border-color: #3c3836;
+    border-color: #282828;
 }
 
 div[class|=notice] button[class|=button]:hover {
@@ -2489,7 +2489,7 @@ div[class|=notice] button[class|=button]:hover {
 }
 
 div[class*=userInfoSection-] div[class|=connectedAccountContainer] {
-    background-color: #3c3836 !important;
+    background-color: #282828 !important;
 }
 
 .editIcon-3h_5Rm {
@@ -2553,3 +2553,19 @@ ul[aria-label$=" threads"] > li:nth-child(2n) {
     color: #fbf1c7;
 }
 
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7 {
+    background-color: #B57614;
+    color: #fbf1c7;
+}
+
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7:hover, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:hover {
+    background-color: #B57614;
+}
+
+.gradientBackground_aa82b3 {
+    display: none;
+}
+
+.theme-dark .footerSeparator__57d95 {
+    background-color: #282828;
+}
