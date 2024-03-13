@@ -5,6 +5,9 @@
 | ![3](./assets/preview_3.png) | ![4](./assets/preview_4.png) |
 | ![5](./assets/preview_5.png) | ![6](./assets/preview_6.png) |
 
+### No longer maintained
+I've moved to [midnight](https://github.com/refact0r/midnight-discord)
+
 ### Why?
 
 I just love Gruvbox colors and theming everything in my system to this colors. I was surprised that I didn't find any Gruvbox for Discord, so I made my own based on [Catppuccin](https://github.com/catppuccin/discord)
