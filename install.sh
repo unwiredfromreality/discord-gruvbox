@@ -12,7 +12,7 @@ elif [[ -d $HOME/.config/BetterDiscord ]]; then
 	echo "Done"
 elif [[ -d $HOME/.config/vesktop ]]; then 
 	vesktop_folder="$HOME/.config/vesktop"
-	curl -s "$target_file" > "$vencord_desktop_folder"/themes/gruvbox.theme.css
+	curl -s "$target_file" > "$vesktop_folder"/themes/gruvbox.theme.css
 else
 	echo "BetterDiscord or Vencord are not installed on your system (cannot find config dirs)"
 fi
