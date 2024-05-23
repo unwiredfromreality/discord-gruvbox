@@ -10,7 +10,7 @@ elif [[ -d $HOME/.config/BetterDiscord ]]; then
 	bd_folder="$HOME/.config/BetterDiscord"
 	curl -s "$target_file" > "$bd_folder"/themes/gruvbox.theme.css
 	echo "Done"
-elif [[ -d $HOME/.config/vesktop]]; then 
+elif [[ -d $HOME/.config/vesktop ]]; then 
 	vesktop_folder="$HOME/.config/vesktop"
 	curl -s "$target_file" > "$vencord_desktop_folder"/themes/gruvbox.theme.css
 else
