@@ -7,6 +7,82 @@
  * @website https://github.com/shvedes
 **/
 
+:root {
+    --font-primary: "Iosevka Aile", "gg sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+    --font-display: "Iosevka Aile", "gg sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Light.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: italic;
+    font-weight: 300;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Light.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Regular.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: italic;
+    font-weight: 400;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Regular.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Medium.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: italic;
+    font-weight: 500;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Medium.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: normal;
+    font-weight: 600;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-SemiBold.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: italic;
+    font-weight: 600;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-SemiBold.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Bold.ttc") format("ttc");
+}
+
+@font-face {
+    font-family: "Iosevka Aile";
+    font-style: italic;
+    font-weight: 700;
+    src: url("https://github.com/unwiredfromreality/discord-gruvbox/raw/main/assets/IosevkaAile-Bold.ttc") format("ttc");
+}
+
+
 button[class*=emojiButtonNormal] > div > div {
     filter: grayscale(0.8) hue-rotate(-50deg) brightness(0.8) opacity(100%) !important;
 }
@@ -18,10 +94,8 @@ button[class*=emojiButtonNormal] > div > div {
 }
 
 [data-popout-root],
-:root,
 html {
-  --font: 'Iosevka Aile';
-  --brand-experiment: #d79921;
+  --brand-experiment: #a89984;
   --brand-experiment-330: #f9f5d7;
   --brand-experiment-360: #f9f5d7;
   --brand-experiment-400: #665c54;
@@ -44,8 +118,8 @@ html {
 
 .theme-dark,
 .theme-light {
-  --brand-260: #d79921;
-  --brand-500: #d79921;
+  --brand-260: #a89984;
+  --brand-500: #a89984;
   --brand-560: #282828;
   --primary-300: #f9f5d7;
   --header-primary: #f9f5d7;
@@ -54,10 +128,10 @@ html {
   --text-muted: #bdae93;
   --text-link: #83a598;
   --text-link-low-saturation: #728E83;
-  --text-positive: #d79921;
+  --text-positive: #a89984;
   --text-warning: #cc241d;
-  --text-danger: #d79921;
-  --text-brand: #d79921;
+  --text-danger: #a89984;
+  --text-brand: #a89984;
   --background-primary: #282828;
   --background-secondary: #32302f;
   --background-secondary-alt: #32302f;
@@ -71,19 +145,19 @@ html {
   --background-modifier-accent: rgba(146, 131, 116, 0.26);
   --background-modifier-active: rgba(249, 245, 215, 0.17);
   --info-warning-background: rgba(215, 153, 33, 0.15);
-  --info-warning-foreground: #d79921;
-  --info-warning-text: #d79921;
+  --info-warning-foreground: #a89984;
+  --info-warning-text: #a89984;
   --info-danger-background: rgba(251, 73, 52, 0.15);
   --info-danger-foreground: #fb4934;
   --info-danger-text: #fb4934;
   --info-help-background: rgba(215, 153, 33, 0.10);
   --info-help-foreground: rgba(215, 153, 33);
   --info-help-text: #f9f5d7;
-  --status-positive-background: #d79921;
+  --status-positive-background: #a89984;
   --status-positive-text: #282828;
-  --status-warning-background: #d79921;
+  --status-warning-background: #a89984;
   --status-warning-text: #f2e5bc;
-  --status-danger-background: #d79921;
+  --status-danger-background: #a89984;
   --status-danger-text: #282828;
   --status-danger: #fb4934;
   --status-positive: #b8bb26;
@@ -101,11 +175,11 @@ html {
   --premium-perk-green: #b8bb26;
   --premium-perk-pink: #d3869b;
   --premium-perk-orange: #fe8019;
-  --button-danger-background: #d79921;
+  --button-danger-background: #a89984;
   --button-danger-background-hover: #fabd2f;
   --button-danger-background-active: #f9f5d7;
   --button-danger-background-disabled: rgba(250, 189, 47, 0.40);
-  --button-positive-background: #d79921;
+  --button-positive-background: #a89984;
   --button-positive-background-hover: #fabd2f;
   --button-positive-background-active: #f9f5d7;
   --button-positive-background-disabled: rgba(250, 189, 47, 0.40);
@@ -123,16 +197,16 @@ html {
   --button-outline-danger-text-active: #fb4934;
   --button-outline-danger-border-active: #fb4934;
   --button-outline-positive-text: #f2e5bc;
-  --button-outline-positive-border: #d79921;
+  --button-outline-positive-border: #a89984;
   --button-outline-positive-background: transparent;
-  --button-outline-positive-background-hover: #d79921;
+  --button-outline-positive-background-hover: #a89984;
   --button-outline-positive-text-hover: #282828;
-  --button-outline-positive-border-hover: #d79921;
+  --button-outline-positive-border-hover: #a89984;
   --button-outline-positive-background-active: #FFCC57;
   --button-outline-positive-text-active: #282828;
-  --button-outline-positive-border-active: #d79921;
+  --button-outline-positive-border-active: #a89984;
   --button-outline-brand-text: #f2e5bc;
-  --button-outline-brand-border: #d79921;
+  --button-outline-brand-border: #a89984;
   --button-outline-brand-background: transparent;
   --button-outline-brand-background-hover: #fabd2f;
   --button-outline-brand-text-hover: #282828;
@@ -141,7 +215,7 @@ html {
   --button-outline-brand-text-active: #282828;
   --button-outline-brand-border-active: #fabd2f;
   --button-outline-primary-text: #f2e5bc;
-  --button-outline-primary-border: #d79921;
+  --button-outline-primary-border: #a89984;
   --button-outline-primary-background: transparent;
   --button-outline-primary-background-hover: #fabd2f;
   --button-outline-primary-text-hover: #282828;
@@ -158,7 +232,7 @@ html {
   --scrollbar-auto-scrollbar-color-track: #504945;
   --input-background: #32302f;
   --input-placeholder-text: #bdae93;
-  --control-brand-foreground: #d79921;
+  --control-brand-foreground: #a89984;
   --mention-foreground: #d5c4a1;
   --mention-background: rgba(168, 153, 132, 0.3);
   --background-mentioned: rgba(215, 153, 33, 0.1); 
@@ -192,7 +266,7 @@ html {
 }
 .theme-dark [class*=disabledPointerEvents] svg[class|=activityIcon],
 .theme-light [class*=disabledPointerEvents] svg[class|=activityIcon] {
-  color: #d79921;
+  color: #a89984;
 }
 
 ::selection {
@@ -478,7 +552,7 @@ div[class|=contentRegion] [id="privacy-&-safety-tab"] div[class|=radioBar][style
   border-color: #cc241d;
 }
 div[class|=contentRegion] [id="privacy-&-safety-tab"] div[class*=betaTagIcon] {
-  background-color: #d79921 !important;
+  background-color: #a89984 !important;
   color: #282828;
 }
 div[class|=contentRegion] #accessibility-tab button[class*=colorBrandNew] {
@@ -984,7 +1058,7 @@ div[class*=newPostCount-] {
 }
 
 div[class*=liveSmall-] {
-  background-color: #d79921!important;
+  background-color: #a89984!important;
   color: #282828;
 }
 
@@ -1186,7 +1260,7 @@ div[class|=sidebar] > section[class|=panels] div[class*=buttonContents] {
   background-color: #292c3c;
 }
 [data-list-id|=forum-channel-list] button[class|=submitButton][class*=colorBrand] {
-  background-color: #D79921;
+  background-color: #a89984;
   color: #232634 !important;
 }
 
@@ -1529,7 +1603,7 @@ div[class*=layerContainer] > div[class*=layer] div[class*=friendSelected] {
 }
 
 section[class|=positionContainer] button[class*=navButtonActive] {
-  background-color: #d79921;
+  background-color: #a89984;
   color: #282828;
 }
 
@@ -2258,7 +2332,7 @@ div[class|=notice] div[class|=closeButton] > svg > path {
 
 div[class|=newChannel] {
     color: #282828;
-    background-color: #d79921 !important;
+    background-color: #a89984 !important;
 }
 
 .fakeActivityIcon-KeXVoI.activityCharacterWumpus-31wmZ9 {
