@@ -18,7 +18,9 @@ button[class*=emojiButtonNormal] > div > div {
 }
 
 [data-popout-root],
+:root,
 html {
+  --font: 'Iosevka Aile';
   --brand-experiment: #d79921;
   --brand-experiment-330: #f9f5d7;
   --brand-experiment-360: #f9f5d7;
@@ -26,7 +28,7 @@ html {
   --brand-experiment-430: #f9f5d7;
   --brand-experiment-460: #fbf1c7;
   --brand-experiment-500: #504945;
-  --brand-experiment-530: #ebdbb2;
+  --brand-experiment-530: #d5c4a1;
   --brand-experiment-560: #665c54;
   --brand-experiment-600: #bdae93;
   --brand-experiment-630: #a89984;
@@ -157,14 +159,14 @@ html {
   --input-background: #32302f;
   --input-placeholder-text: #bdae93;
   --control-brand-foreground: #d79921;
-  --mention-foreground: #ebdbb2;
+  --mention-foreground: #d5c4a1;
   --mention-background: rgba(168, 153, 132, 0.3);
   --background-mentioned: rgba(215, 153, 33, 0.1); 
   --background-mentioned-hover: rgba(215, 153, 33, 0.2);
   --background-message-hover: rgba(80, 73, 69, 0.25);
   --background-message-highlight: rgba(80, 73, 69, 0.4);
   --channels-default: #f2e5bc;
-  --channel-icon: #ebdbb2;
+  --channel-icon: #d5c4a1;
   --channel-text-area-placeholder: #f9f5d7;
 
   /* message input bar */
@@ -181,7 +183,7 @@ html {
   --interactive-hover: #d5c4a1;
   --interactive-active: #fbf1c7;
 
-  --primary-200: #ebdbb2;
+  --primary-200: #d5c4a1;
 }
 .theme-dark [class*=disabledPointerEvents],
 .theme-light [class*=disabledPointerEvents] {
@@ -570,7 +572,7 @@ div[class|=contentRegion] #billing-tab [class*=paymentText-] {
 }
 div[class|=contentRegion] #billing-tab div[class|=codeRedemptionRedirect] {
   background-color: #32302f;
-  color: #ebdbb2;
+  color: #d5c4a1;
   border-color: #504945;
 }
 div[class|=contentRegion] [id="voice-&-video-tab"] div[class|=backgroundOptionRing] {
@@ -1142,7 +1144,7 @@ div[class|=channelTextArea] button[class*=emojiButton-] {
   background-color: #cc241d;
 }
 [class|=uploadDropModal] div[class|=inner] {
-  border-color: #ebdbb2;
+  border-color: #d5c4a1;
 }
 [class|=uploadDropModal] div[class|=inner] * {
   color: #f9f5d7 !important;
@@ -1177,7 +1179,7 @@ div[class|=chat] > div[class|=content] > div[class|=container] div[class*=mainCa
 div[class|=sidebar] > section[class|=panels] svg[class*=buttonIcon-],
 div[class|=sidebar] > section[class|=panels] div[class*=buttonContents] {
   fill: #c6d0f5;
-  color: #ebdbb2;
+  color: #d5c4a1;
 }
 
 [data-list-id|=forum-channel-list] div[class|=body] > div[class|=tags] div[class*=pill] {
